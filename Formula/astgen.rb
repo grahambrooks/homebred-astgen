@@ -1,20 +1,20 @@
 class Astgen < Formula
   desc "The astgen application"
   homepage "https://github.com/grahambrooks/astgen"
-  version "0.7.0"
+  version "0.7.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/grahambrooks/astgen/releases/download/0.7.0/astgen-aarch64-apple-darwin.tar.xz"
-      sha256 "751787da331d6211a206b7888f591886aa45123c163fc667210db66c1ce90ee9"
+      url "https://github.com/grahambrooks/astgen/releases/download/0.7.1/astgen-aarch64-apple-darwin.tar.xz"
+      sha256 "0bb684fa19b40b6504ec04d65f4fb76483ded63dbeab75a380721248948f82a7"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/grahambrooks/astgen/releases/download/0.7.0/astgen-x86_64-apple-darwin.tar.xz"
-      sha256 "d1f0100c0591ddeeb70849d1705f0b69b8312b121d4eb5a4f011d9704ea164f0"
+      url "https://github.com/grahambrooks/astgen/releases/download/0.7.1/astgen-x86_64-apple-darwin.tar.xz"
+      sha256 "ef68340fdf923bbad322eb041b949e8bd572733a75f93a27f89a9cd81c7c9d29"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/grahambrooks/astgen/releases/download/0.7.0/astgen-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "7e87eede4ca56cffdefaae0d6758329aaa85b33a99f2acd5aaf56ea2836feed0"
+    url "https://github.com/grahambrooks/astgen/releases/download/0.7.1/astgen-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "493ac80a7ea6a416aaf1b822bef31c4d9f9736dc0e23921158ea3855e0f68b0e"
   end
   license "MIT"
 
